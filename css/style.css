@@ -178,8 +178,9 @@ body {
 .job-box img {
     position: absolute;
     top: -25px;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
 }
 
 .job-title {
