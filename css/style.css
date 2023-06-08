@@ -8,7 +8,7 @@
     width: 1440px;
     max-width: 1440px;
     background-color: #f4f6f8;
-    min-height: 500px;
+    padding: 0 0 100px 0;
 }
 
 span {
@@ -38,6 +38,7 @@ body {
     height: 160px;
     background-color: #5964E0;
     border-radius: 0px 0px 0px 100px;
+    margin-bottom: 100px;
 }
 
 .header-logo {
@@ -130,6 +131,10 @@ body {
     width: calc(100% / 3);
 }
 
+.checkbox, .checkbox input {
+    cursor: pointer;
+}
+
 .header__search label input:nth-child(2) {
     height: 40px;
     width: 100%;
@@ -150,4 +155,53 @@ body {
 
 .btn:hover {
     opacity: 0.8;
+}
+
+.jobs-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px 0;
+}
+
+.job-box {
+    width: 350px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 32px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 44px 0;
+}
+
+.job-box img {
+    position: absolute;
+    top: -25px;
+}
+
+.job-title {
+    display: flex;
+    flex-direction: column;
+    gap: 17px 0;
+    margin-top: 20px;
+}
+
+.job-title p {
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    color: #6E8098;
+}
+
+.job-box span:nth-child(3) {
+    font-size: 14px;
+    color: #5964E0;
+    font-weight: 700;
+}
+
+.learn-more {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
 }
