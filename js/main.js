@@ -7,7 +7,7 @@ const API = 'https://db-json-one.vercel.app/db.json'
 let maxJob = 12
 
 learnMoreBtn.addEventListener('click', ()=> {
-    maxJob = 30
+    maxJob += 18
     jobsBox.innerHTML = ''
     recFnc()
 })
